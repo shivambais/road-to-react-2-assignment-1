@@ -49,7 +49,7 @@ async function ctgSearchFun(){
 }
 
 let categories= document.querySelector("#categories").children;
-console.log(categories);
+// console.log(categories);
 
 for(let el of categories){
     // console.log(this);
