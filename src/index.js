@@ -96,5 +96,5 @@ let debounce= (fun,time)=>{
     }
     id= setTimeout(fun,time)
 }
-debounce(main,500)
+// debounce(main,500)
 document.querySelector("#query").addEventListener("input",()=>{debounce(main,500)});
